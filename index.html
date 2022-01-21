@@ -100,11 +100,6 @@
     <script type="text/javascript" src="./asset/dist/jquery.Thailand.min.js"></script>
 
     <script type="text/javascript">
-        /******************\
-         *     DEMO 1     *
-        \******************/
-        // demo 1: load database from json. if your server is support gzip. we recommended to use this rather than zip.
-        // for more info check README.md
 
         $.Thailand({
             database: './asset/database/db.json',
@@ -139,11 +134,6 @@
             console.log('รหัสไปรษณีย์', this.value);
         });
 
-        /******************\
-         *     DEMO 2     *
-        \******************/
-        // demo 2: load database from zip. for those who doesn't have server that supported gzip.
-        // for more info check README.md
         $.Thailand({
             database: './asset/database/db.zip',
             $search: $('#demo2 [name="search"]'),
